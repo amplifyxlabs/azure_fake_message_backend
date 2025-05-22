@@ -1,0 +1,35 @@
+{
+  "name": "fake-conversation-backend",
+  "version": "1.0.0",
+  "description": "Backend service for generating fake conversation videos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "video",
+    "ffmpeg",
+    "elevenlabs",
+    "conversation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "axios": "^1.6.8",
+    "canvas": "^2.11.2",
+    "cloudinary": "^2.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "elevenlabs": "^0.5.0",
+    "express": "^4.19.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.2.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+} 
